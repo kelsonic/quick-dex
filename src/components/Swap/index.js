@@ -12,7 +12,7 @@ const Swap = () => {
   if (!wallet?.provider) {
     return (
       <Wrapper>
-        <p>Connect your wallet to swap.</p>
+        <p>Connect your wallet to swap...</p>
       </Wrapper>
     );
   }
