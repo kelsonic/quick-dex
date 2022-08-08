@@ -1,6 +1,7 @@
 // Node modules.
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "@uniswap/widgets/fonts.css";
 // Relative imports.
 import "./index.css";
 import App from "./components/App";
