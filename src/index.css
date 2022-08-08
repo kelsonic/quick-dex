@@ -1,13 +1,177 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+body, #main {
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -moz-osx-font-smoothing: grayscale;
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-smoothing: antialiased;
+  background: #212121;
+  color: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-kerning: normal;
+  font-weight: normal;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 70px);
+}
+
+a {
+  color: #006ae4;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+  margin: 0;
+}
+
+a {
+  color: #75b5ff;
+  text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  background: #424242;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  outline: 2px solid transparent;
+  padding: 10px;
+  transition: box-shadow 0.2s, outline 0.2s;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  box-shadow: 0 0 0 1px #ffffff;
+  outline: 1px solid #ffffff;
+  overflow: hidden;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="date"]::placeholder,
+textarea::placeholder {
+  color: #adadad;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="password"]:focus::placeholder,
+input[type="date"]:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
+
+button {
+  align-items: center;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  color: rgb(26, 29, 38);
+  cursor: pointer;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: bold;
+  justify-content: center;
+  min-height: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  button {
+    min-height: 50px;
+  }
+}
+
+.small-text {
+  font-size: 0.7rem;
 }
