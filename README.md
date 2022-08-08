@@ -2,15 +2,15 @@
 
 A boilerplate create-react-app DEX that utilizes Uniswap's SDK.
 
-<img alt="app" src="./src/assets/image1.png" width="300px" />
+<img alt="app" src="./src/assets/image1.png" width="400px" />
 <br />
-<img alt="app" src="./src/assets/image2.png" width="300px" />
+<img alt="app" src="./src/assets/image2.png" width="400px" />
 <br />
-<img alt="app" src="./src/assets/image3.png" width="300px" />
+<img alt="app" src="./src/assets/image3.png" width="400px" />
 <br />
-<img alt="app" src="./src/assets/image4.png" width="300px" />
+<img alt="app" src="./src/assets/image4.png" width="400px" />
 <br />
-<img alt="app" src="./src/assets/image5.png" width="300px" />
+<img alt="app" src="./src/assets/image5.png" width="400px" />
 
 ## Getting Started
 
