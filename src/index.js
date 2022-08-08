@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // Relative imports.
 import "./index.css";
-import "@uniswap/widgets/fonts.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 

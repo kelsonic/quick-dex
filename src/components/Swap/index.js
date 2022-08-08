@@ -10,10 +10,6 @@ const UNISWAP_TOKEN_LIST = "https://gateway.ipfs.io/ipns/tokens.uniswap.org";
 const Swap = () => {
   const [{ wallet }] = useConnectWallet();
 
-  if (!wallet?.provider) {
-    return null;
-  }
-
   return (
     <Wrapper>
       <SwapWidget
